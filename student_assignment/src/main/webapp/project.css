@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-decoration: none ;
+    list-style: none;
+    background-color : var(--bgcolor); 
+    }
+
+:root{
+        --bgcolor:#1D1E2C;
+    }
+    
+    .hd{
+   		margin-left:600px;
+   		margin-top:100px;
+    	height:30px;
+    	width:500px;
+	border-radius: 30px;
+
+}
+    
+    #b{
+    	padding:2px;
+    	margin-left: 70px;
+   		
+    	font-family: 'Luckiest Guy', cursive; 
+    	font-size: 20px;
+   		color:#5AB3CF;
+    	height:30px;
+    	width:200px;
+    	box-shadow: 0 1px 5px blanchedalmond;
+      	background-color:wheat00;
+      	border-radius: 30px;
+    }
+    
+   #c{
+   		
+    	font-family: 'Luckiest Guy', cursive; 
+    	font-size: 20px;
+   		color:#5AB3CF;
+    	height:30px;
+    	width:200px;
+    	box-shadow: 0 1px 5px blanchedalmond;
+      	background-color: wheat00;
+      	border-radius: 30px;
+    }
+   
+ .sign img{
+
+ 		height:400px;
+		width:300px;
+ }  
+    
+.sign{
+	
+	margin-left:600px;
+	margin-top:100px;
+	
+	height:500px;
+	width:350px;
+	box-shadow: 0 1px 5px blanchedalmond;
+    background-image: url(popup_img.jpg);
+}
+
+.logo img {
+    width: 100px;
+    height: 10 px;
+    position: relative;
+    object-fit: cover;
+    background-color: var(--bgcolor00);
+}
+
+
+.log img{
+
+ 		height:400px;
+		width:300px;
+ }  
+    
+.log{
+	
+	margin-left:600px;
+	margin-top:100px;
+	
+	height:300px;
+	width:350px;
+	box-shadow: 0 1px 5px blanchedalmond;
+    background-image: url(popup_img.jpg);
+}
+
+
+
+#a{
+	
+text-align: center;
+color:#5AB3CF;
+	
+	}
+	
+
+.hea{
+    
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 13vw;
+    object-fit: cover; 
+    justify-content: center;
+    background-image: url(gif.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.end{
+    width: 100%;
+    height: 100vh; 
+     background-color: var(--bgcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+.prj_txt{
+    
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 11vw;
+
+    object-fit: cover; 
+    justify-content: center;
+    background-image: url(gif.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.prj_wel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5AB3CF;
+    text-align: center;
+    font-size: large;
+}
+.prj_cnt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5AB3CF;
+}
+
+.collec_txt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    grid-auto-rows: minmax(1px,auto);
+}
+     
+.collec_txt img{
+
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #5AB3CF; 
+    padding: 1px;
+    margin: 40px;
+    float: left;
+    
+    } 
+
+.collec_txt h1{
+    background-image: url(collec_1.png);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: #5AB3CF;
+    object-fit: contain;
+    position: relative;
+    padding-left: 50px;
+    padding-block:inherit;
+    /* margin: 5px;
+    position: absolute; */
+    /* margin-top: 450px;
+    margin-left: 65px; */
+}
+
+
+.collec_txt a{
+    color: #5AB3CF;
+}
+
+/* .col img :hover{
+    width: 600px;
+    height: 500px;
+    box-shadow: 1px 1px 3px 4px #5AB3CF ; 
+    display: inline-block;
+} */
+/* 
+.col{
+    object-fit:cover;
+    width: 600px;
+    height: 500px;
+    color: wheat;
+    margin: 50px;
+    display: flexbox; 
+    padding: 5px;
+    transition: 0.5s;    
+}
+
+.col {
+    box-shadow: 0px 0px 0px wheat;
+    width: 0;
+ 
+ }
+ .col:hover {
+   box-shadow: 1px 1px 3px 4px #5AB3CF ;
+
+}  */
+
+
+.log_txt{
+    color: white ;
+    }
+.side_text{
+    color: #8282ED;
+    
+}
+.but{
+    padding: 10px 60px;
+    background: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    }
+
+.popup{
+   
+     box-shadow: 0 1px 5px blanchedalmond;
+     padding: 20px;
+     margin: 16px;
+     float: left;
+ 
+    height: 400 px;
+    width: 350px;
+    background-image: url(popup_img.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top:0%;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(-50% , -50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: var(--bgcolor);
+    visibility: hidden;
+    transition: transform 0.4s , top 0.4s;
+    border-radius: 15px;
+    }
+
+.popup img{
+    width: 100px;
+    margin-top: -50px ;
+    border-radius: 60%;
+    color: #1D1E2C;
+    background-color: #5AB3CF;
+    box-shadow: 0 3px 5px rgba(red, green, blue,0.2);
+    }
+
+.popup h2{
+    
+    font-size: 39px;
+    font-weight: 500;
+    color: #fff;
+    margin: 30px 0 10px;
+    border-radius: 40px;
+    }
+
+.popup p{
+    color: #fff ;
+    background-color: var(--bgcolor00);
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px ;
+    padding: 10px 0;
+    background: var(--bgcolor) ;
+    color: white;
+    border:0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(red, green, blue,0.2);
+    }
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50% , -50%)scale(1);
+    }
+
+
+.menu1{
+    width: 200 px;
+    height: 40px;
+    color: black;
+    /* background: #010004;     */
+    font-size: 18px;
+    text-decoration: none;
+    transform: translate(x,y);
+    transition: 1s;
+    align-items: right;
+    text-align: right;
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
+    }
+
+    @keyframes btn1 {
+        0%,14%,41%,42%{
+            content: "Home";
+            width: 0%
+        }
+
+        42%,71%,72%{
+            width: 0%;
+            content: "Login";
+        }
+        72%,99%,100%{
+            width: 0%  ;
+            content: "Collection";
+        }
+        42%,71%,72%{
+            width: 0%;
+            content: "About";
+        }
+        0%,14%,41%,42%,71%,72%,99%,100%{
+            width: 0%;
+        }
+        30%,38%,56%,66%,86%,93%{
+            width: 100%;
+        }
+    }
+
+.btn1 {
+    background-color: #5AB3CF;
+    color: black;
+    }
+
+.btn2 {
+    background-color: #5AB3CF;
+    color: black;
+    }
+
+.btn3 {
+    background-color: #5AB3CF;
+    color: black;
+    }
+
+.btn4 {
+    background-color: #5AB3CF;
+    color: black;
+    }
+
+    li{
+        border-radius: 10px;
+    }
+
+ul li
+{
+    display: inline-block;
+    text-decoration: none ;
+    list-style: none;
+    padding : 1px 5px;
+    background: #5AB3CF  ; 
+    border: 10 px;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10 px;
+
+}
+
+.subhead img{
+    margin-top: -150px;
+    margin-bottom: -10 px;
+    width: 100px;
+    height: 95px;
+}
+
+.about_me img{
+    width : 600px;
+    height: 400px ;
+}
+
+.about_me{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.side_text{
+    width: 800px;
+
+}
+
+
+
+
+.proj_div1{
+    background-image: url(space-1.jpg);
+    background-size: contain;
+    background-size: 10% 200px;
+    background-repeat: no-repeat;
+    background-position: 0 px ;
+    width: 1000%;
+    height: 200px;
+    
+    }
+
+.proj_div2{
+        background-image: url(space-4.jpg);
+        background-size: contain;
+        background-size: 10% 200px;
+        background-repeat: no-repeat;
+        background-position: 0 px ;
+        width: 1000%;
+        height: 200px;
+        
+        }
+
+.proj_div3{
+            background-image: url(space-7.jpg);
+            background-size: contain;
+            background-size: 10% 200px;
+            background-repeat: no-repeat;
+            background-position: 0 px ;
+            width: 1000%;
+            height: 200px;
+            
+            }
+
+.proj_div4{
+                background-image: url(space-3.jpg);
+                background-size: contain;
+                background-size: 10% 200px;
+                background-repeat: no-repeat;
+                background-position: 0 px ;
+                width: 1000%;
+                height: 200px;
+                
+                }
+                        
