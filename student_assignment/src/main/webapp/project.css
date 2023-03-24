@@ -111,6 +111,7 @@ color:#5AB3CF;
     object-fit: cover; 
     justify-content: center;
     background-image: url(gif.gif);
+    background-size: 50vw;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
